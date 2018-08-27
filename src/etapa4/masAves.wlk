@@ -17,12 +17,12 @@ object pipa {
 	/*
 	 * cuando le dicen a pipa que haga lo que quiera, no hace nada
 	 */
-	method kmsRecorridos(kms) {
-		var kilometros = 0
-		kilometros = kilometros + kms
-		
-	}
-	method gramosIngeridos() {}
+	 var kms = 0
+	 var gramos = 0
+	method kmsRecorridos() {return kms} 
+	method volar(cuanto) {kms += cuanto}
+	method gramosIngeridos() {return gramos}
+	method comer(cosa, cuanto) {gramos += cuanto}
 	method haceLoQueQuieras() { }   // queda asi
 	// pregunta: ¿por qué es necesario agregar este método, sin código
 }

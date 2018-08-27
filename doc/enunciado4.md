@@ -10,7 +10,11 @@
 
 <br>  
 
-**Pipa** es una paloma de la cual no nos interesa controlar su energía, sino que simplemente recuerde el acumulado de cuántos kms vuela y cuántos gramos de comida (sin importar de dqué se trate) ingiere. Esta información se puede consultar a través de los mensajes `kmsRecorridos()` y `gramosIngeridos()`. Cuando le piden que haga lo que quiera, Pipa no hace nada.
+**Pipa** es una paloma de la cual no nos interesa controlar su energía
+, sino que simplemente recuerde el acumulado de cuántos kms vuela y c
+uántos gramos de comida (sin importar de dqué se trate) ingiere.
+ Esta información se puede consultar a través de los mensajes `kmsRecorridos()` y `gramosIngeridos()`
+ . Cuando le piden que haga lo que quiera, Pipa no hace nada.
 
 
 Se pide 
